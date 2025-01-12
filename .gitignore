@@ -1,0 +1,4 @@
+venv
+vrnv
+__pycache__
+*.session*
