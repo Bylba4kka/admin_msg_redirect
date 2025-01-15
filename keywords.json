@@ -1,30 +1,74 @@
-{
-    "test": [
-        "https://t.me/+uHAjvZhvKb9hMDVi",
-        "https://t.me/+5LW79U-S4kc4MGYy",
-        "zxc"
-    ],
-    "#frontend": [
-        -1002443692087
-    ],
-    "#webdesign": [
-        -1002443692087
-    ],
-    "#cms": [
-        -1002443692087,
-        -4751053130
-    ],
-    "#webdev": [
-        -1002443692087,
-        -4751053130
-    ],
-    "#landing": -1002443692087,
-    "#shop": [
-        -1002443692087,
-        -4751053130
-    ],
-    "#backend": 4751053130,
-    "": [
-        -1002314677140
-    ]
-}
+[
+    {
+        "keyword": "#frontend",
+        "id": "-1002443692087",
+        "group_title": "",
+        "group_invite_link": ""
+    },
+    {
+        "keyword": "test",
+        "id": "",
+        "group_title": "",
+        "group_invite_link": "https://t.me/+5LW79U-S4kc4MGYy"
+    },
+    {
+        "keyword": "#webdesign",
+        "id": "-1002443692087",
+        "group_title": "",
+        "group_invite_link": ""
+    },
+    {
+        "keyword": "#cms",
+        "id": "-1002443692087",
+        "group_title": "",
+        "group_invite_link": ""
+    },
+    {
+        "keyword": "#cms",
+        "id": "-4751053130",
+        "group_title": "",
+        "group_invite_link": ""
+    },
+    {
+        "keyword": "#webdev",
+        "id": "-1002443692087",
+        "group_title": "",
+        "group_invite_link": ""
+    },
+    {
+        "keyword": "#webdev",
+        "id": "-4751053130",
+        "group_title": "",
+        "group_invite_link": ""
+    },
+    {
+        "keyword": "#landing",
+        "id": "-1002443692087",
+        "group_title": "",
+        "group_invite_link": ""
+    },
+    {
+        "keyword": "#shop",
+        "id": "-1002443692087",
+        "group_title": "",
+        "group_invite_link": ""
+    },
+    {
+        "keyword": "#shop",
+        "id": "-4751053130",
+        "group_title": "",
+        "group_invite_link": ""
+    },
+    {
+        "keyword": "#backend",
+        "id": "4751053130",
+        "group_title": "",
+        "group_invite_link": ""
+    },
+    {
+        "keyword": "",
+        "id": "-1002314677140",
+        "group_title": "",
+        "group_invite_link": ""
+    }
+]
