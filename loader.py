@@ -5,8 +5,7 @@ import os
 
 
 PHONE_NUMBER: str = input("Введите номер телефона: ")
-# SOURCE = "7989912855"
-SOURCE = "-1002292274560"
+SOURCE = "7989912855"
 
 def _get_string_session(phone_number, api_id, api_hash):
     if f"{phone_number}.session" in os.listdir():
