@@ -6,12 +6,12 @@ import os
 
 from bs4 import BeautifulSoup
 from telethon.sessions import StringSession
-from telethon.sync import TelegramClient
-from telethon import events
+from telethon.sync import TelegramClient, Button
+from telethon import events, custom
 
 
 PHONE_NUMBER: str = input("Введите номер телефона: ")
-SOURCE = "7989912855"
+SOURCE = "-1002406205336"
 
 def _get_string_session(phone_number, api_id, api_hash):
     if f"{phone_number}.session" in os.listdir():
@@ -138,7 +138,7 @@ async def handler(event: events.NewMessage.Event):
         for keyword in keywords:
             if keyword.lower() in event.message.text.lower():
                 try:
-                    await client.send_message(chat_id, event.message)
+                    await client.forward_messages(chat_id, event.message)
 
                     print(f"Сообщение с ключевым словом '{keyword}' переслано в чат {chat_id} ({group_link_or_title})")
                 except Exception as ex:
