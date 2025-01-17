@@ -6,12 +6,12 @@ import os
 
 from bs4 import BeautifulSoup
 from telethon.sessions import StringSession
-from telethon.sync import TelegramClient, Button
-from telethon import events, custom
+from telethon.sync import TelegramClient
+from telethon import events
 
 
 PHONE_NUMBER: str = input("Введите номер телефона: ")
-SOURCE = "-1002406205336"
+SOURCE = "7989912855"
 
 def _get_string_session(phone_number, api_id, api_hash):
     if f"{phone_number}.session" in os.listdir():
