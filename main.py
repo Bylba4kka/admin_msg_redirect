@@ -109,7 +109,7 @@ def get_joined_groups(client) -> list[dict]:
     return groups_info
 
 
-@client.on(events.NewMessage(int(SOURCE)))
+@client.on(events.NewMessage())
 async def handler(event: events.NewMessage.Event):
     global groups_info
     if not groups_info:
